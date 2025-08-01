@@ -1,0 +1,32 @@
+﻿@inherits LayoutComponentBase // Inherits from LayoutComponentBase, which provides base functionality for layout components in Blazor
+
+<div>
+    @* Includes the NavMenu component, which typically contains the navigation links for the application *@
+    <NavMenu /> 
+    <main>
+        @* Renders the body of the layout, which is the content of the page being displayed *@
+        @Body 
+    </main>
+</div>
+
+@code {
+    // Represents a segment of UI content, implemented as a delegate that writes the
+    // content to a Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder.
+    // Parameters:
+    // builder:
+    // The Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder to which the content should be written.
+
+    // 1. Delegate: A delegate in C# is a type that represents references to methods with a 
+    //    specific parameter list and return type. Delegates are used to pass methods as arguments to other methods.
+    // 2. RenderFragment: In Blazor, RenderFragment is a delegate that takes a RenderTreeBuilder 
+    //    as a parameter. The RenderTreeBuilder is used to build the render tree, which is the internal representation 
+    //    of the UI that Blazor uses to render components.
+    // 3. Segment of UI Content: A RenderFragment represents a segment of UI content. 
+    //    It is a reusable piece of UI that can be rendered within a component. 
+    //    This allows for dynamic and flexible UI composition.
+
+    [Parameter]
+    // Defines a parameter of type RenderFragment to hold the content 
+    // to be rendered inside the layout
+    public RenderFragment ChildContent { get; set; } 
+}

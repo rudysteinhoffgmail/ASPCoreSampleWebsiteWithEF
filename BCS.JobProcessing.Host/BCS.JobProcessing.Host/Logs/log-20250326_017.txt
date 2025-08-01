@@ -1,0 +1,4 @@
+2025-03-26 14:25:41.833 -05:00 [Information] Starting up the application
+2025-03-26 14:25:42.960 -05:00 [Warning] Overriding address(es) '"https://localhost:7141, http://localhost:5105"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-03-26 14:35:48.414 -05:00 [Information] Starting up the application
+2025-03-26 14:35:48.924 -05:00 [Warning] Overriding address(es) '"https://localhost:7141, http://localhost:5105"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.

@@ -1,0 +1,96 @@
+﻿@page "/summary"
+@using MudBlazor
+
+<MudPaper Class="square-content">
+    <div class="header-row">
+        <MudText T="string" Typo="Typo.body1">Summary</MudText>
+    </div>
+    <div class="header-row">
+        <MudTextField T="string" Typo="Typo.body1" Class="header-item" Label="Source System" />
+        <MudTextField T="string" Typo="Typo.body1" Class="header-item" Label="MP" />
+        <MudTextField T="string" Typo="Typo.body1" Class="header-item" Label="Desc" />
+        <MudTextField T="string" Typo="Typo.body1" Class="header-item" Label="Premium" />
+        <MudTextField T="string" Typo="Typo.body1" Class="header-item" Label="Losses" />
+        <MudTextField T="string" Typo="Typo.body1" Class="header-item" Label="Reserves" />
+        <MudTextField T="string" Typo="Typo.body1" Class="header-item" Label="Open/Closed" />
+    </div>
+    <div class="detail-row">
+        <MudTextField T="string" Typo="Typo.body1" Class="detail-item" Label="PAI" />
+        <div class="circle_yellow detail-item">
+            <div class="circle-content">84</div>
+        </div>
+        <MudTextField T="string" Typo="Typo.body1" Class="detail-item" Label="Limited Benefits" />
+        <MudTextField T="string" Typo="Typo.body1" Class="detail-item" Label="Complete" />
+        <MudTextField T="string" Typo="Typo.body1" Class="detail-item" Label="Complete" />
+        <MudTextField T="string" Typo="Typo.body1" Class="detail-item" Label="Complete" />
+        <MudTextField T="string" Typo="Typo.body1" Class="detail-item" Label="Closed" />
+    </div>
+</MudPaper>
+
+<style>
+    .square-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column; /* Arrange items in a column */
+        align-items: flex-start; /* Align items to the start (left) */
+        padding-left: 0; /* Remove padding to align the circle to the left edge */
+    }
+
+    .header-row {
+        display: flex;
+        width: 100%;
+        justify-content: space-between; /* Distribute space evenly between items */
+        padding: 5px 0; /* Add some padding to the top and bottom */
+    }
+
+    .header-item {
+        flex: 1; /* Ensure each header item takes equal space */
+        text-align: left; /* Align the text to the left within each header item */
+        white-space: nowrap; /* Prevent text from wrapping */
+        overflow: hidden; /* Hide overflow text */
+    }
+
+    .detail-row {
+        display: flex;
+        width: 100%;
+        justify-content: space-between; /* Distribute space evenly between items */
+        padding: 5px 0; /* Add some padding to the top and bottom */
+        background-color: #f9f9f9; /* Add a background color for detail rows */
+    }
+
+    .detail-item {
+        flex: 1; /* Ensure each detail item takes equal space */
+        text-align: left; /* Align the text to the left within each detail item */
+        white-space: nowrap; /* Prevent text from wrapping */
+        overflow: hidden; /* Hide overflow text */
+    }
+
+    .circle_yellow {
+        width: 25%; /* Set the width to 25% of the column width */
+        height: 25%; /* Set the height to 25% of the column height */
+        background-color: yellow;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px; /* Adjusted font size to fit the smaller circle */
+        font-weight: bold;
+        border: 1px solid black; /* Adjusted border size to fit the smaller circle */
+        margin: 1px; /* Adjusted margin around the circle */
+        padding: 1px; /* Adjusted padding inside the circle */
+        position: relative; /* Position relative to allow absolute positioning of content */
+    }
+
+    .circle-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px; /* Adjusted font size to fit the smaller circle */
+        text-align: center;
+    }
+
+    .summary-text {
+        margin-left: 0; /* Remove left margin to align text next to the circle */
+    }
+</style>

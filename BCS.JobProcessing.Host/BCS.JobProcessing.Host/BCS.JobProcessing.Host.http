@@ -1,0 +1,95 @@
+@BCS.JobProcessing.Host_HostAddress = https://localhost:7141
+
+###
+
+POST {{BCS.JobProcessing.Host_HostAddress}}/api/ods
+Content-Type: application/json
+  {
+     "GutOdsPremiumId": "01",
+     "AccountingPeriod": "January - 2024",
+     "SourceSystemSubCode": "4EL",
+     "Company":"01",
+     "MP": "140",
+     "CoverageCode": "0102",
+     "PremiumSrcType": "GP",
+     "AmountType": "Collected",
+     "GutenbergRaw": 10000,
+     "GutenbergGross": 0,
+     "ODS": 0,
+     "DiffRawvsGross": 10000,
+     "DiffGrossvsODS": 0,
+     "GutenbergRawSuspended": 0,
+     "GutenbergGrossSuspended": 0,
+     "ODSError": 0
+  }
+
+###
+
+# https://localhost:7141/api/ods/1
+@id=1
+GET {{BCS.JobProcessing.Host_HostAddress}}/api/ods/{{id}}
+
+[
+  {
+     "GutOdsPremiumId": 1,
+     "AccountingPeriod": "January - 2024",
+     "SourceSystemSubCode": "4EL",
+     "Company":"01",
+     "MP": "140",
+     "CoverageCode": "0102",
+     "PremiumSrcType": "GP",
+     "AmountType": "Collected",
+     "GutenbergRaw": 10000,
+     "GutenbergGross": 0,
+     "ODS": 0,
+     "DiffRawvsGross": 10000,
+     "DiffGrossvsODS": 0,
+     "GutenbergRawSuspended": 0,
+     "GutenbergGrossSuspended": 0,
+     "ODSError": 0
+  }
+]
+###
+# Validate the data
+PUT {{BCS.JobProcessing.Host_HostAddress}}/api/ods/1
+Content-Type: application/json
+
+{
+  
+    {
+       "GutOdsPremiumId": 1,
+       "AccountingPeriod": "January - 2024",
+       "SourceSystemSubCode": "4EL",
+       "Company":"01",
+       "MP": "140",
+       "CoverageCode": "0102",
+       "PremiumSrcType": "GP",
+       "AmountType": "Collected",
+       "GutenbergRaw": 10000,
+       "GutenbergGross": 0,
+       "ODS": 0,
+       "DiffRawvsGross": 10000,
+       "DiffGrossvsODS": 0,
+       "GutenbergRawSuspended": 0,
+       "GutenbergGrossSuspended": 0,
+       "ODSError": 0
+    }
+}
+
+###
+
+DELETE {{BCS.JobProcessing.Host_HostAddress}}/api/ods/1
+
+###
+
+GET {{BCS.JobProcessing.Host_HostAddress}}/api/ODS
+
+###
+
+GET {{BCS.JobProcessing.Host_HostAddress}}/api/ODS
+
+###
+
+GET {{BCS.JobProcessing.Host_HostAddress}}/api/ODS
+
+###

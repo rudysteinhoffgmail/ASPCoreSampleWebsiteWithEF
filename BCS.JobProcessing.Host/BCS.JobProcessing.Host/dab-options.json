@@ -1,0 +1,13 @@
+﻿{
+   "ConnectionStringName": "dab-connection-string",
+   "Dacpac": null,
+   "DatabaseType": 3,
+   "MergeDacpacs": false,
+   "ProjectPath": "C:\\Users\\rxs0002\\Desktop\\BCSF\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host",
+   "Tables": [
+      {
+         "Name": "[Premium].[GrossPremiumDTO]",
+         "ObjectType": 0
+      }
+   ]
+}

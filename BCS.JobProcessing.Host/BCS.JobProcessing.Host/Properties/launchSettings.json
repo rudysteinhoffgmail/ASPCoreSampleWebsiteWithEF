@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json", // Specifies the schema for the launch settings file, providing validation and IntelliSense support.
+  "profiles": { // Defines the different profiles for launching the application.
+    "http": { // Profile for launching the application using HTTP.
+      "commandName": "Project", // Indicates that the project should be launched.
+      "dotnetRunMessages": true, // Enables detailed messages from the dotnet run command.
+      "launchBrowser": false, // Specifies whether to launch the default web browser when the application starts.
+      "applicationUrl": "http://localhost:5105", // Specifies the URL where the application will be available when launched.
+      "environmentVariables": { // Defines environment variables for the application.
+        "ASPNETCORE_ENVIRONMENT": "Development" // Sets the ASP.NET Core environment to Development.
+      }
+    },
+    "https": { // Profile for launching the application using HTTPS.
+      "commandName": "Project", // Indicates that the project should be launched.
+      "dotnetRunMessages": true, // Enables detailed messages from the dotnet run command.
+      "launchBrowser": false, // Specifies whether to launch the default web browser when the application starts.
+      "applicationUrl": "https://localhost:7141;http://localhost:5105", // Specifies the URLs where the application will be available when launched.
+      "environmentVariables": { // Defines environment variables for the application.
+        "ASPNETCORE_ENVIRONMENT": "Development" // Sets the ASP.NET Core environment to Development.
+      }
+    }
+  }
+}

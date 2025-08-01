@@ -1,0 +1,143 @@
+﻿@page "/grosspremium"
+@using System.Net.Http.Json
+@using MudBlazor
+@using BCS.JobProcessing.Client.Services
+@using BCS.JobProcessing.Client.Models
+
+@inject OdsService OdsService
+
+<MudThemeProvider />
+<MudPopoverProvider />
+
+<MudPaper Elevation="4" Class="p-4">
+    <MudDataGrid T="GrossPremiumDTO" @ref="grid" Items="_elements" DragDropColumnReordering="_dragDropReorderingEnabled" ColumnsPanelReordering="_columnsPanelReorderingEnabled"
+    ColumnResizeMode="ResizeMode.Container" Hideable="_hideable" Filterable="_filterable" Groupable="_groupable" FilterMode="_filterMode" ShowMenuIcon="true">
+        <Columns>
+            <SelectColumn T="GrossPremiumDTO" />
+            <PropertyColumn Property="x => x.GrossPremiumKey">Gross Premium Key</PropertyColumn>
+            <PropertyColumn Property="x => x.AccountingPeriodKey">Accounting Period Key</PropertyColumn>
+            <PropertyColumn Property="x => x.PremiumDueStartDate">Premium Due Start Date</PropertyColumn>
+            <PropertyColumn Property="x => x.ResidentStateKey">Resident State Key</PropertyColumn>
+            <PropertyColumn Property="x => x.CoverageCodeKey">Coverage Code Key</PropertyColumn>
+            <PropertyColumn Property="x => x.PremiumDueEndDate">Premium Due End Date</PropertyColumn>
+            <PropertyColumn Property="x => x.CollectedPremiumAmount">Collected Premium Amount</PropertyColumn>
+            <PropertyColumn Property="x => x.PolicyrenewalKey">Policy Renewal Key</PropertyColumn>
+            <PropertyColumn Property="x => x.SourceSystemXrefKey">Source System Xref Key</PropertyColumn>
+            <PropertyColumn Property="x => x.CompanyKey">Company Key</PropertyColumn>
+            <PropertyColumn Property="x => x.EarnedPremiumAmount">Earned Premium Amount</PropertyColumn>
+            <PropertyColumn Property="x => x.ManagementProgramKey">Management Program Key</PropertyColumn>
+            <PropertyColumn Property="x => x.WrittenPremiumAmount">Written Premium Amount</PropertyColumn>
+            <PropertyColumn Property="x => x.UnearnedPremiumAmount">Unearned Premium Amount</PropertyColumn>
+            <PropertyColumn Property="x => x.UnpaidPremiumAmount">Unpaid Premium Amount</PropertyColumn>
+            <PropertyColumn Property="x => x.CollectedNumberOfInsured">Collected Number Of Insured</PropertyColumn>
+            <PropertyColumn Property="x => x.BrokerPercent">Broker Percent</PropertyColumn>
+            <PropertyColumn Property="x => x.ActivityDate">Activity Date</PropertyColumn>
+            <PropertyColumn Property="x => x.AdminPercent">Admin Percent</PropertyColumn>
+            <PropertyColumn Property="x => x.EarnedNumberOfInsured">Earned Number Of Insured</PropertyColumn>
+            <PropertyColumn Property="x => x.SourceCollectedNetPremiumAmount">Source Collected Net Premium Amount</PropertyColumn>
+            <PropertyColumn Property="x => x.WrittenNumberOfInsured">Written Number Of Insured</PropertyColumn>
+            <PropertyColumn Property="x => x.UnearnedNumberOfInsured">Unearned Number Of Insured</PropertyColumn>
+            <PropertyColumn Property="x => x.UnpaidNumberOfInsured">Unpaid Number Of Insured</PropertyColumn>
+            <PropertyColumn Property="x => x.TPACode">TPA Code</PropertyColumn>
+            <PropertyColumn Property="x => x.InvoiceDate">Invoice Date</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergGrossPremiumEntityId">Gutenberg Gross Premium Entity Id</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergStartTs">Gutenberg Start Ts</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergGrossPremiumManualEntityId">Gutenberg Gross Premium Manual Entity Id</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergPolicyEntityID">Gutenberg Policy Entity ID</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergRawPremiumEntityId">Gutenberg Raw Premium Entity Id</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergrawUnpaidEntityId">Gutenberg Raw Unpaid Entity Id</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergRawPremiumEntityIdList">Gutenberg Raw Premium Entity Id List</PropertyColumn>
+            <PropertyColumn Property="x => x.PremiumTransactionCodeKey">Premium Transaction Code Key</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergRawPremiumManualEntityIdList">Gutenberg Raw Premium Manual Entity Id List</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergUnpaidPremiumEntityIdList">Gutenberg Unpaid Premium Entity Id List</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergGrossPremiumSource">Gutenberg Gross Premium Source</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergEntityId">Gutenberg Entity Id</PropertyColumn>
+            <PropertyColumn Property="x => x.GutenbergUnearnedEntityIdList">Gutenberg Unearned Entity Id List</PropertyColumn>
+            <PropertyColumn Property="x => x.RSCTransactionID">RSC Transaction ID</PropertyColumn>
+            <PropertyColumn Property="x => x.RowInsertDate">Row Insert Date</PropertyColumn>
+            <PropertyColumn Property="x => x.RowUpdateDate">Row Update Date</PropertyColumn>
+            <PropertyColumn Property="x => x.RowInsertLogId">Row Insert Log Id</PropertyColumn>
+            <PropertyColumn Property="x => x.RowUpdateLogId">Row Update Log Id</PropertyColumn>
+            <PropertyColumn Property="x => x.RowInsertUsername">Row Insert Username</PropertyColumn>
+            <PropertyColumn Property="x => x.RowUpdateUsername">Row Update Username</PropertyColumn>
+            <PropertyColumn Property="x => x.RowIsCurrent">Row Is Current</PropertyColumn>
+            <PropertyColumn Property="x => x.RowEffectiveDate">Row Effective Date</PropertyColumn>
+            <PropertyColumn Property="x => x.RowExpirationDate">Row Expiration Date</PropertyColumn>
+            <PropertyColumn Property="x => x.RowStatus">Row Status</PropertyColumn>
+        </Columns>
+        <PagerContent>
+            <MudDataGridPager T="GrossPremiumDTO" />
+        </PagerContent>
+    </MudDataGrid>
+</MudPaper>
+
+@code {
+
+    private IEnumerable<GrossPremiumDTO> _elements = new List<GrossPremiumDTO>();
+
+    private DataGridFilterMode _filterMode = DataGridFilterMode.Simple;
+    private bool _dragDropReorderingEnabled = true;
+    private bool _columnsPanelReorderingEnabled = true;
+    private bool _hideable = true;
+    private bool _filterable = true;
+    private bool _groupable = true;
+    private bool _hideMolar = false;
+    private bool _hideCategory = false;
+    private bool _groupMolar = false;
+    private bool _groupCategory = false;
+    public MudDataGrid<GrossPremiumDTO> grid = null;
+
+    private MudBlazor.Converter<bool, bool?> _oppositeBoolConverter = new()
+    {
+        SetFunc = value => !value,
+        GetFunc = value => !value ?? true,
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _elements = await OdsService.GetAllGrossPremiums();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error initializing GrossPremium data: {ex.Message}");
+        }
+    }
+
+
+    private async Task HideColumnsAsync(bool hide)
+    {        
+        foreach (var column in grid.RenderedColumns)
+        {
+            if (hide)
+            {
+                await column.HideAsync();
+            }
+            else
+            {
+                await column.ShowAsync();
+            }
+        };
+    }
+}
+
+<style>
+    .header-cell {
+        background-color: white; /* Set the background color to gray */
+    }
+
+    .mud-table th, .mud-table td {
+        border: none; /* Remove border lines from table headers and cells */
+    }
+
+    .ellipse {
+        display: inline-block;
+        width: 100px; /* Set the width of the ellipse */
+        height: 50px; /* Set the height of the ellipse */
+        background-color: white; /* Set the background color of the ellipse */
+        border-radius: 50%; /* Make the shape an ellipse */
+        text-align: center;
+        line-height: 50px; /* Center the text vertically */
+    }
+</style>

@@ -1,0 +1,14 @@
+2025-03-26 11:45:06.137 -05:00 [Information] Starting up the application
+2025-03-26 11:45:06.548 -05:00 [Warning] Overriding address(es) '"https://localhost:7141, http://localhost:5105"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-03-26 12:00:50.218 -05:00 [Information] Starting up the application
+2025-03-26 12:00:51.230 -05:00 [Warning] Overriding address(es) '"https://localhost:7141, http://localhost:5105"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-03-26 12:01:21.946 -05:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ODS" for actions - BCS.JobProcessing.Host.Controllers.ODSController.GetGrossPremiumDTO (BCS.JobProcessing.Host), BCS.JobProcessing.Host.Controllers.ODSController.GetValidateGutOdsPremiumDataDTO (BCS.JobProcessing.Host). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)

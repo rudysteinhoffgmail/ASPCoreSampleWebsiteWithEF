@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|d:\\git\\website\\bcs.jobprocessing.host\\bcs.jobprocessing.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|solutionrelative:bcs.jobprocessing.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|d:\\git\\website\\bcs.jobprocessing.host\\bcs.jobprocessing.host\\controllers\\odscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|solutionrelative:bcs.jobprocessing.host\\controllers\\odscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|d:\\git\\website\\bcs.jobprocessing.host\\bcs.jobprocessing.host\\models\\odscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|solutionrelative:bcs.jobprocessing.host\\models\\odscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|d:\\git\\website\\bcs.jobprocessing.host\\bcs.jobprocessing.host\\models\\odsrev2025context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|solutionrelative:bcs.jobprocessing.host\\models\\odsrev2025context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|d:\\git\\website\\bcs.jobprocessing.host\\bcs.jobprocessing.host\\models\\validategutodspremiumdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|solutionrelative:bcs.jobprocessing.host\\models\\validategutodspremiumdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|d:\\git\\website\\bcs.jobprocessing.host\\bcs.jobprocessing.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|solutionrelative:bcs.jobprocessing.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|d:\\git\\website\\bcs.jobprocessing.host\\bcs.jobprocessing.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|solutionrelative:bcs.jobprocessing.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|d:\\git\\website\\bcs.jobprocessing.host\\bcs.jobprocessing.host\\bcs.jobprocessing.host.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{631F91B4-7D50-4FDE-8799-5BCBEA7C5AD7}|BCS.JobProcessing.Host\\BCS.JobProcessing.Host.csproj|solutionrelative:bcs.jobprocessing.host\\bcs.jobprocessing.host.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 137,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 805,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidateGutOdsPremiumDataDTO.cs",
+              "DocumentMoniker": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Models\\ValidateGutOdsPremiumDataDTO.cs",
+              "RelativeDocumentMoniker": "BCS.JobProcessing.Host\\Models\\ValidateGutOdsPremiumDataDTO.cs",
+              "ToolTip": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Models\\ValidateGutOdsPremiumDataDTO.cs",
+              "RelativeToolTip": "BCS.JobProcessing.Host\\Models\\ValidateGutOdsPremiumDataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:43:16.054Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OdsRev2025Context.cs",
+              "DocumentMoniker": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Models\\OdsRev2025Context.cs",
+              "RelativeDocumentMoniker": "BCS.JobProcessing.Host\\Models\\OdsRev2025Context.cs",
+              "ToolTip": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Models\\OdsRev2025Context.cs",
+              "RelativeToolTip": "BCS.JobProcessing.Host\\Models\\OdsRev2025Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:29:45.3Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ODSController.cs",
+              "DocumentMoniker": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Controllers\\ODSController.cs",
+              "RelativeDocumentMoniker": "BCS.JobProcessing.Host\\Controllers\\ODSController.cs",
+              "ToolTip": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Controllers\\ODSController.cs",
+              "RelativeToolTip": "BCS.JobProcessing.Host\\Controllers\\ODSController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:41:50.113Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OdsContext.cs",
+              "DocumentMoniker": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Models\\OdsContext.cs",
+              "RelativeDocumentMoniker": "BCS.JobProcessing.Host\\Models\\OdsContext.cs",
+              "ToolTip": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Models\\OdsContext.cs",
+              "RelativeToolTip": "BCS.JobProcessing.Host\\Models\\OdsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T15:48:52.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "BCS.JobProcessing.Host\\appsettings.json",
+              "ToolTip": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\appsettings.json",
+              "RelativeToolTip": "BCS.JobProcessing.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T19:19:18.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BCS.JobProcessing.Host\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BCS.JobProcessing.Host\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T22:14:33.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Program.cs",
+              "RelativeDocumentMoniker": "BCS.JobProcessing.Host\\Program.cs",
+              "ToolTip": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\Program.cs",
+              "RelativeToolTip": "BCS.JobProcessing.Host\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:16:38.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BCS.JobProcessing.Host.http",
+              "DocumentMoniker": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host.http",
+              "RelativeDocumentMoniker": "BCS.JobProcessing.Host\\BCS.JobProcessing.Host.http",
+              "ToolTip": "D:\\git\\WebSite\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host\\BCS.JobProcessing.Host.http",
+              "RelativeToolTip": "BCS.JobProcessing.Host\\BCS.JobProcessing.Host.http",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwFQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-12T18:58:35.068Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 608,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 367,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{64f83bf2-678c-4b70-97e1-dc1f21dd29d1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
